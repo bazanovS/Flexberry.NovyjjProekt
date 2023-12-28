@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISNovyjj_proektГорячиеНапитки",
+  "modelName": "i-i-s-novyjj-proekt-горячие-напитки",
+  "className": "ГорячиеНапитки",
+  "nameSpace": "IIS.Novyjj_proekt",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "сахар",
+      "type": "i-i-s-novyjj-proekt-колво-сахара",
+      "flexberryType": "КолвоСахара",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "напитки",
+      "relatedTo": "i-i-s-novyjj-proekt-напитки",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказ",
+      "relatedTo": "i-i-s-novyjj-proekt-заказ",
+      "inverse": "горячиеНапитки"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ГорячиеНапиткиE",
+      "modelName": "i-i-s-novyjj-proekt-горячие-напитки",
+      "attrs": [
+        {
+          "name": "сахар",
+          "caption": "Сахар",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Напитки",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование напитка",
+              "hidden": true,
+              "index": 1
+            },
+            {
+              "name": "цена",
+              "caption": "Цена",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Напитки",
+          "name": "напитки",
+          "relatedTo": "i-i-s-novyjj-proekt-напитки",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

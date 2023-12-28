@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "напитки",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ГорячиеНапитки.Напитки",
+      "projection": "НапиткиL",
+      "detailModelName": "i-i-s-novyjj-proekt-горячие-напитки"
+    },
+    {
+      "master": "продукты",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "Еда.Продукты",
+      "projection": "ПродуктыL",
+      "detailModelName": "i-i-s-novyjj-proekt-еда"
+    }
+  ],
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISNovyjj_proektЗаказE",
+  "className": "ЗаказE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-заказ",
+      "modelProjection": "ЗаказE"
+    }
+  ]
+}

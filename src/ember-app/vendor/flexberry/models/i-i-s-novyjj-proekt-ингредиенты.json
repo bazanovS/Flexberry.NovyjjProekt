@@ -1,0 +1,182 @@
+﻿{
+  "name": "IISNovyjj_proektИнгредиенты",
+  "modelName": "i-i-s-novyjj-proekt-ингредиенты",
+  "className": "Ингредиенты",
+  "nameSpace": "IIS.Novyjj_proekt",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "остаток",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "составы",
+      "relatedTo": "i-i-s-novyjj-proekt-составы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-novyjj-proekt-сотрудники",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ИнгредиентыE",
+      "modelName": "i-i-s-novyjj-proekt-ингредиенты",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Добавленное количество",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "остаток",
+          "caption": "Остаток",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            },
+            {
+              "name": "должность",
+              "caption": "Должность",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-novyjj-proekt-сотрудники",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Составы",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Составы",
+          "name": "составы",
+          "relatedTo": "i-i-s-novyjj-proekt-составы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ИнгредиентыL",
+      "modelName": "i-i-s-novyjj-proekt-ингредиенты",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Добавленное количество",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "остаток",
+          "caption": "Остаток",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-novyjj-proekt-сотрудники",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Составы",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "составы",
+          "relatedTo": "i-i-s-novyjj-proekt-составы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

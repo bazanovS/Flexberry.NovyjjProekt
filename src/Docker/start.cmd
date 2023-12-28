@@ -1,0 +1,1 @@
+docker-compose -p novyjj_proekt up -d

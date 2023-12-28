@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Составы",
+      "projection": "СоставыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Ингредиенты",
+  "name": "IISNovyjj_proektИнгредиентыE",
+  "className": "ИнгредиентыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-ингредиенты",
+      "modelProjection": "ИнгредиентыE"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ингредиенты",
+      "projection": "ИнгредиентыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Напитки",
+  "name": "IISNovyjj_proektНапиткиE",
+  "className": "НапиткиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-напитки",
+      "modelProjection": "НапиткиE"
+    }
+  ]
+}

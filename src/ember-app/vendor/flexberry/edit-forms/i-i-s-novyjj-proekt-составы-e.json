@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Составы",
+  "name": "IISNovyjj_proektСоставыE",
+  "className": "СоставыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-составы",
+      "modelProjection": "СоставыE"
+    }
+  ]
+}

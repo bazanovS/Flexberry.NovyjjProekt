@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-напитки-e",
+  "editForm": "i-i-s-novyjj-proekt-напитки-e",
+  "external": false,
+  "caption": "Напитки",
+  "name": "IISNovyjj_proektНапиткиL",
+  "className": "НапиткиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-напитки",
+      "modelProjection": "НапиткиL"
+    }
+  ]
+}

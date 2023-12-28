@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-составы-e",
+  "editForm": "i-i-s-novyjj-proekt-составы-e",
+  "external": false,
+  "caption": "Составы",
+  "name": "IISNovyjj_proektСоставыL",
+  "className": "СоставыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-составы",
+      "modelProjection": "СоставыL"
+    }
+  ]
+}

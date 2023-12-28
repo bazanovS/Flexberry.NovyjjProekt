@@ -1,0 +1,65 @@
+﻿{
+  "applicationCaption": "Novyjj_proekt",
+  "applicationTitle": "Novyjj_proekt",
+  "items": [
+    {
+      "link": null,
+      "menuName": "клиентам",
+      "caption": "Клиентам",
+      "title": "Клиентам",
+      "children": [
+        {
+          "link": "i-i-s-novyjj-proekt-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудникам",
+      "caption": "Сотрудникам",
+      "title": "Сотрудникам",
+      "children": [
+        {
+          "link": "i-i-s-novyjj-proekt-продукты-l",
+          "menuName": null,
+          "caption": "Продукты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-составы-l",
+          "menuName": null,
+          "caption": "Составы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-ингредиенты-l",
+          "menuName": null,
+          "caption": "Ингредиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-напитки-l",
+          "menuName": null,
+          "caption": "Напитки",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

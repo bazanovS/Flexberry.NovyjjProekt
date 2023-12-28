@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-ингредиенты-e",
+  "editForm": "i-i-s-novyjj-proekt-ингредиенты-e",
+  "external": false,
+  "caption": "Ингредиенты",
+  "name": "IISNovyjj_proektИнгредиентыL",
+  "className": "ИнгредиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-ингредиенты",
+      "modelProjection": "ИнгредиентыL"
+    }
+  ]
+}

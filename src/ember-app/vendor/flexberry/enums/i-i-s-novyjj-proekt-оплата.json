@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Novyjj_proekt",
+  "className": "Оплата",
+  "enumObjects": {
+    "Безналичный": "Безналичный",
+    "Наличный": "Наличный"
+  }
+}
